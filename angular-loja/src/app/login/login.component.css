@@ -1,0 +1,27 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 700px;
+}
+#section-login{
+    height: 100%;
+    width: 400px;
+    border-radius: 10px;
+    border: 2px solid black;
+    padding: 10px 20px;
+    text-align: center;
+}
+#btn-login{
+    width: 350px;
+}
+.largura-do-texto {
+    width: 350px;
+}
+#section-login #titulo-login {
+    font-size: 35px;
+   
+}

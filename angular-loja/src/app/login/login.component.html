@@ -1,0 +1,14 @@
+<main>
+  <section id="section-login">
+    <form>
+      <div>
+        <label for="usuario"><span id="titulo-login">Acesso restrito</span></label><br>
+        <input class="largura-do-texto" name="usuario" required type="text" [(ngModel)]="usuario" placeholder="digite seu login">
+        <br>
+<br>
+        <input class="largura-do-texto" name="password" type="password" [(ngModel)]="senha" placeholder="digite sua senha">
+      </div><br>
+      <button id="btn-login" class="btn btn-primary" (click)="fazerLogin()">Login</button>
+    </form>
+  </section>
+</main>
